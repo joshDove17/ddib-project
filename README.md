@@ -64,25 +64,25 @@ Traditional performance review and recognition systems are often infrequent, top
 ### 3.3 SWOT Analysis
 
 #### Strengths
-Transparent, fair reward system using blockchain.
-Gamified features enhance engagement and motivation.
-Peer-to-peer recognition empowers employees and builds culture.
-Real-time analytics provide actionable HR insights.
+- Transparent, fair reward system using blockchain.
+- Gamified features enhance engagement and motivation.
+- Peer-to-peer recognition empowers employees and builds culture.
+- Real-time analytics provide actionable HR insights.
 
 #### Weaknesses
-Learning curve for employees unfamiliar with Web3 tools.
-Dependence on vendor partnerships for meaningful real-world perks.
-Potential skepticism if perceived as gimmicky or adding extra work.
+- Learning curve for employees unfamiliar with Web3 tools.
+- Dependence on vendor partnerships for meaningful real-world perks.
+- Potential skepticism if perceived as gimmicky or adding extra work.
 
 #### Opportunities
-Expansion through HR software integrations and vendor networks.
-Rising demand for engagement and recognition solutions globally.
-Positioning as a pioneer in decentralized workplace innovation.
+- Expansion through HR software integrations and vendor networks.
+- Rising demand for engagement and recognition solutions globally.
+- Positioning as a pioneer in decentralized workplace innovation.
 
 #### Threats
-Regulatory uncertainties (taxable benefits, labor laws across regions).
-Competition from established HR platforms adding Web3 features.
-Security vulnerabilities if smart contracts are not carefully audited.
+- Regulatory uncertainties (taxable benefits, labor laws across regions).
+- Competition from established HR platforms adding Web3 features.
+- Security vulnerabilities if smart contracts are not carefully audited.
 
 
 ### 3.4 Business Model
