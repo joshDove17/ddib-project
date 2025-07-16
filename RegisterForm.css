@@ -1,0 +1,109 @@
+.register-form-box {
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.register-form-title {
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.register-form-input {
+  margin-bottom: 12px;
+}
+
+.register-form-input .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.register-form-input .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #764ba2;
+}
+
+.register-form-submit {
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 600;
+  text-transform: none;
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  box-shadow: 0 4px 15px rgba(118, 75, 162, 0.4);
+  transition: all 0.3s ease;
+}
+
+.register-form-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(118, 75, 162, 0.6);
+}
+
+.register-form-toggle {
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 500;
+  text-transform: none;
+  color: #764ba2;
+  border-color: #764ba2;
+  transition: all 0.3s ease;
+}
+
+.register-form-toggle:hover {
+  background-color: rgba(118, 75, 162, 0.1);
+  border-color: #764ba2;
+}
+
+.wallet-connect-btn {
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 600;
+  text-transform: none;
+  background: linear-gradient(135deg, #f7931e 0%, #ac6dd5 100%);
+  box-shadow: 0 4px 15px rgba(247, 147, 30, 0.4);
+  transition: all 0.3s ease;
+}
+
+.wallet-connect-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(247, 147, 30, 0.6);
+}
+
+.wallet-connect-btn:disabled {
+  background: #ccc;
+  transform: none;
+  box-shadow: none;
+}
+
+.wallet-disconnect-btn {
+  border-radius: 8px;
+  padding: 8px;
+  font-weight: 500;
+  text-transform: none;
+  color: #ff6b6b;
+  border-color: #ff6b6b;
+  transition: all 0.3s ease;
+}
+
+.wallet-disconnect-btn:hover {
+  background-color: rgba(255, 107, 107, 0.1);
+  border-color: #ff6b6b;
+}
+
+.wallet-connected {
+  margin-bottom: 16px;
+}
+
+.wallet-connected .MuiTextField-root .MuiOutlinedInput-root {
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.wallet-connected .MuiTextField-root .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #4caf50;
+}

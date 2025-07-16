@@ -1,0 +1,59 @@
+.login-form-box {
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-form-title {
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.login-form-input {
+  margin-bottom: 16px;
+}
+
+.login-form-input .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.login-form-input .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #667eea;
+}
+
+.login-form-submit {
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 600;
+  text-transform: none;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  transition: all 0.3s ease;
+}
+
+.login-form-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+.login-form-toggle {
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 500;
+  text-transform: none;
+  color: #667eea;
+  border-color: #667eea;
+  transition: all 0.3s ease;
+}
+
+.login-form-toggle:hover {
+  background-color: rgba(102, 126, 234, 0.1);
+  border-color: #667eea;
+}
