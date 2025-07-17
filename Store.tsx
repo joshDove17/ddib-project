@@ -121,7 +121,7 @@ function StorePage() {
 					py: { xs: 4, sm: 6 },
 					display: "flex",
 					flexDirection: "column",
-					alignItems: "center", // Center content horizontally
+					alignItems: "center", 
 				}}
 			>
 				{/* Header Section */}
@@ -129,7 +129,7 @@ function StorePage() {
 					sx={{
 						textAlign: "center",
 						mb: 6,
-						width: "100%", // Ensure header takes full width for alignment
+						width: "100%", 
 					}}
 				>
 					<Fade in timeout={800}>
@@ -177,8 +177,8 @@ function StorePage() {
 				{/* Items Grid */}
 				<Grid
 					container
-					spacing={3} // Reduced spacing for better alignment
-					justifyContent='center' // Center grid items horizontally
+					spacing={3} 
+					justifyContent='center' 
 				>
 					{items.map((item, index) => (
 						<Grid item xs={12} sm={6} md={4} key={item.id}>
@@ -188,8 +188,8 @@ function StorePage() {
 									onMouseLeave={() => setHoveredItem(null)}
 									sx={{
 										height: "100%",
-										width: "100%", // Ensure cards take full width of grid item
-										maxWidth: 360, // Set a consistent max-width for cards
+										width: "100%", 
+										maxWidth: 360, 
 										background: "rgba(255, 255, 255, 0.1)",
 										backdropFilter: "blur(20px)",
 										border: "1px solid rgba(255, 255, 255, 0.2)",
@@ -203,7 +203,7 @@ function StorePage() {
 											boxShadow: "0 25px 50px rgba(0, 0, 0, 0.25)",
 											border: "1px solid rgba(255, 255, 255, 0.4)",
 										},
-										mx: "auto", // Center the card within the grid item
+										mx: "auto", 
 									}}
 								>
 									{/* Hover overlay */}
