@@ -29,7 +29,7 @@ const TokenSendModal = ({
 	const [error, setError] = useState("");
 	const senderWalletAddress = "0x284edb1aB6010422503c4190bEB08DBaA6Bb7Ea5";
 	const recipientWalletAddress = "0x18C8a44533877dFd8a22fB060e4f52e4Cfd708f4";
-	// Replace with the actual ERC-20 token contract address
+
 	const tokenContractAddress = "0x3d540965809ccb355b1f0d1cbcabb55762997cfd";
 	const networkConfig = {
 		chainId: "0x2BE",
@@ -42,7 +42,7 @@ const TokenSendModal = ({
 		rpcUrls: ["https://rpc.uzhethw.ifi.uzh.ch"],
 		blockExplorerUrls: ["https://uzhethw.ifi.uzh.ch"],
 	};
-	// Minimal ERC-20 ABI for the transfer function
+	
 	const tokenABI = [
 		{
 			constant: false,
@@ -182,7 +182,7 @@ const TokenSendModal = ({
 				.transfer(recipientWalletAddress, amountInWei)
 				.send({
 					from: account,
-					gasPrice, // 🔥 Use legacy-style gas price to avoid EIP-1559 error
+					gasPrice, 
 				});
 			// Call onConfirm callback with transaction details
 			onConfirm(
