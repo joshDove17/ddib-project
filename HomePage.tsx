@@ -168,7 +168,7 @@ function HomePage() {
 				message ? " with message: " + message : ""
 			}`
 		);
-		// Add logic to actually send tokens
+		
 	};
 
 	return (
