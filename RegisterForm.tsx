@@ -126,7 +126,7 @@ const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleForm }) => {
 			return;
 		}
 
-		// Simulate register logic (replace with real auth)
+		
 		console.log("Registering with:", {
 			firstName,
 			lastName,
